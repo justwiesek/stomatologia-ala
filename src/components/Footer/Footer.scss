@@ -1,0 +1,1291 @@
+.footer {
+    height: auto;
+    width: 100%;
+    background-color: #FBFAFA;
+    // background-color: #DBCCC9;
+    font-family: 'PT Serif', serif;
+
+    .footer-main {
+        height: 120px;
+        width: 100%;
+        display: flex;
+        position: relative;
+        margin: 0;
+
+        .footer-heading {
+            position: absolute;
+            top: 20%;
+            left: 43%;
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 100%;
+                height: 2px;
+                width: 300px;
+                background-color: #004B72;
+                border-radius: 6px;
+                -webkit-border-radius: 6px;
+                -moz-border-radius: 6px;
+                -ms-border-radius: 6px;
+                -o-border-radius: 6px;
+                transform: translate(-19%, 0);
+                -webkit-transform: translate(-19%, 0);
+                -moz-transform: translate(-19%, 0);
+                -ms-transform: translate(-19%, 0);
+                -o-transform: translate(-19%, 0);
+            }
+        }
+    }
+
+    ul {
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .first-clinic {
+        width: 99%;
+        list-style: none;
+        margin: 0;
+        display: inline-grid;
+        grid-template-columns: 1% 18% 36% 44%;
+        //  grid-template-rows: 10%;
+        padding-top: 20px;
+        border-bottom: 5px solid #004B72;
+        padding-bottom: 20px;
+
+        .photo_dermawet {
+            width: 200px;
+            height: 260px;
+            margin-top: 40px;
+            grid-column-start: 2;
+            object-position: 55%;
+            object-fit: cover;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .footer_dermawet {
+            margin-top: 70px;
+            grid-column-start: 3;
+
+            h2 {
+                font-size: 18px;
+                margin: 0;
+                padding-bottom: 10px;
+            }
+
+            h3 {
+                font-size: 24px;
+                margin: 0;
+                padding-bottom: 10px;
+            }
+
+            p {
+                margin: 0;
+                padding-bottom: 5px;
+            }
+
+            p:nth-last-child(1) {
+                padding-top: 60px;
+
+                a {
+                    color: blue;
+                }
+
+                a:link {
+                    color: blue;
+                }
+
+                // a:visited {
+                //     color: purple;
+                // }
+                a:hover {
+                    color: green;
+                }
+
+                a:active {
+                    color: red;
+                }
+            }
+        }
+        .footer_dermawet-frame {
+            width: 100%;
+            height: 350px;
+            grid-column-start: 4;
+    
+            .frame {
+                width: 100%;
+                height: 100%;
+                border: 1px solid rgb(141, 141, 141);
+            }
+        }
+    }
+
+    
+
+    .second-clinic {
+        width: 99%;
+        list-style: none;
+        margin: 0;
+        display: inline-grid;
+        grid-template-columns: 1% 18% 36% 44%;
+        //  grid-template-rows: 10%;
+        padding-top: 20px;
+        border-bottom: 5px solid #004B72;
+        padding-bottom: 20px;
+
+        .photo_vetcare {
+            width: 200px;
+            height: 260px;
+            margin-top: 40px;
+            grid-column-start: 2;
+            object-position: 47%;
+            object-fit: cover;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .footer_vetcare {
+            margin-top: 90px;
+            grid-column-start: 3;
+
+            h2 {
+                font-size: 18px;
+                margin: 0;
+                padding-bottom: 10px;
+            }
+
+            h3 {
+                font-size: 24px;
+                margin: 0;
+                padding-bottom: 10px;
+            }
+
+            p {
+                margin: 0;
+                padding-bottom: 5px;
+            }
+
+            p:nth-last-child(1) {
+                padding-top: 30px;
+            }
+        }
+
+        .footer_vetcare-frame {
+            width: 100%;
+            height: 350px;
+            grid-column-start: 4;
+
+            .frame {
+                width: 100%;
+                height: 100%;
+                border: 1px solid rgb(141, 141, 141);
+            }
+        }
+    }
+
+    .third-clinic {
+        width: 99%;
+        list-style: none;
+        margin: 0;
+        display: inline-grid;
+        grid-template-columns: 1% 18% 36% 44%;
+        //  grid-template-rows: 10%;
+        padding-top: 14px;
+        border-bottom: 5px solid #004B72;
+        padding-bottom: 20px;
+
+        .photo_elwet {
+            width: 200px;
+            height: 250px;
+            margin-top: 50px;
+            grid-column-start: 2;
+            object-fit: cover;
+            object-position: 55% 100%;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .footer_elwet {
+            margin-top: 70px;
+            grid-column-start: 3;
+
+            h2 {
+                font-size: 18px;
+                margin: 0;
+                padding-bottom: 10px;
+            }
+
+            h3 {
+                font-size: 24px;
+                margin: 0;
+                padding-bottom: 10px;
+            }
+
+            p {
+                margin: 0;
+                padding-bottom: 5px;
+            }
+
+            p:nth-last-child(1) {
+                padding-top: 60px;
+
+                a {
+                    color: blue;
+                }
+
+                a:link {
+                    color: blue;
+                }
+
+                // a:visited {
+                //     color: purple;
+                // }
+                a:hover {
+                    color: green;
+                }
+
+                a:active {
+                    color: red;
+                }
+            }
+        }
+
+        .footer_elwet-frame {
+            width: 100%;
+            height: 350px;
+            grid-column-start: 4;
+
+            .frame {
+                width: 100%;
+                height: 100%;
+                border: 1px solid rgb(141, 141, 141);
+            }
+        }
+    }
+
+    .contact {
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+        height: 200px;
+        background-color: #d8cbc3;
+        
+        .footer-1 {
+            position: absolute;
+            top: 5%;
+           // left: 38%;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: red;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer-3th {
+            position: absolute;
+            top: 45%;
+           // left: 40%;
+            font-size: 16px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer-4rd {
+            position: absolute;
+            top: 56%;
+            //left: 40%;
+            font-size: 16px;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    .rights {
+        position: relative;
+        background-color: #1a343e;
+        color: #FBFAFA;
+        font-size: 12px;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        padding-top: 27px;
+
+        p {
+            margin: 0;
+            margin: 0 1%;
+        }
+    }
+}
+
+
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 1230px) {
+    .footer {
+        height: 100vh;
+        width: 100%;
+
+        .footer-main {
+            .footer-heading {
+                font-size: 36px;
+
+                &:after {
+                    width: 270px;
+                }
+            }
+        }
+
+        ul {
+            padding-left: 1%;
+        }
+
+        .first-clinic {
+            width: 99%;
+            grid-template-columns: 1% 19% 35% 43%;
+
+            .photo_dermawet {
+                width: 180px;
+                height: 230px;
+                margin-top: 50px;
+                grid-column-start: 2;
+            }
+
+            .footer_dermawet {
+                margin-top: 65px;
+                grid-column-start: 3;
+
+                h3 {
+                    font-size: 22px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 15px;
+                    padding-top: 60px;
+                }
+            }
+
+            .footer_dermawet-frame {
+                width: 100%;
+                height: 300px;
+            }
+        }
+
+        .second-clinic {
+            width: 99%;
+            grid-template-columns: 1% 19% 35% 43%;
+
+            .photo_vetcare {
+                width: 180px;
+                height: 230px;
+                margin-top: 50px;
+                grid-column-start: 2;
+            }
+
+            .footer_vetcare {
+                margin-top: 90px;
+                grid-column-start: 3;
+
+                h3 {
+                    font-size: 22px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 15px;
+                    padding-top: 30px;
+                }
+            }
+
+            .footer_vetcare-frame {
+                width: 100%;
+                height: 300px;
+            }
+        }
+
+        .third-clinic {
+            width: 98%;
+            grid-template-columns: 1% 19% 35% 43%;
+
+            .photo_elwet {
+                width: 180px;
+                height: 230px;
+                margin-top: 50px;
+                grid-column-start: 2;
+            }
+
+            .footer_elwet {
+                margin-top: 65px;
+                grid-column-start: 3;
+
+                h3 {
+                    font-size: 22px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 15px;
+                    padding-top: 60px;
+                }
+            }
+
+            .footer_elwet-frame {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .footer {
+        height: 100vh;
+        width: 100%;
+
+        .footer-main {
+            .footer-heading {
+                font-size: 36px;
+
+                &:after {
+                    width: 270px;
+                }
+            }
+
+            .footer-first {
+                font-size: 16px;
+            }
+
+            .footer-2nd {
+                font-size: 16px;
+            }
+
+            .photo_ala {
+                height: auto;
+                width: 100%;
+            }
+
+            .footer-3rd {
+                font-size: 14px;
+            }
+
+            .footer-4th {
+                font-size: 14px;
+            }
+        }
+
+        ul {
+            padding-left: 1%;
+        }
+
+        .first-clinic {
+            width: 99%;
+            grid-template-columns: 18% 35% 45%;
+            border-bottom: 3px solid #004B72;
+            padding-top: 10px;
+
+            .photo_dermawet {
+                width: 160px;
+                height: 200px;
+                margin-top: 40px;
+                grid-column-start: 1;
+            }
+
+            .footer_dermawet {
+                margin-top: 50px;
+                grid-column-start: 2;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 14px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 14px;
+                    padding-top: 30px;
+                }
+            }
+
+            .footer_dermawet-frame {
+                width: 100%;
+                height: 270px;
+                grid-column-start: 3;
+            }
+        }
+
+        .second-clinic {
+            width: 99%;
+            grid-template-columns: 18% 35% 45%;
+            border-bottom: 3px solid #004B72;
+            padding-top: 10px;
+
+            .photo_vetcare {
+                width: 160px;
+                height: 200px;
+                margin-top: 40px;
+                grid-column-start: 1;
+            }
+
+            .footer_vetcare {
+                margin-top: 70px;
+                grid-column-start: 2;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 14px;
+                }
+            }
+
+            .footer_vetcare-frame {
+                width: 100%;
+                height: 270px;
+                grid-column-start: 3;
+            }
+        }
+
+        .third-clinic {
+            width: 99%;
+            grid-template-columns: 18% 35% 45%;
+            border-bottom: 3px solid #004B72;
+            padding-top: 10px;
+
+            .photo_elwet {
+                width: 160px;
+                height: 200px;
+                margin-top: 40px;
+                grid-column-start: 1;
+            }
+
+            .footer_elwet {
+                margin-top: 50px;
+                grid-column-start: 2;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 14px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 14px;
+                    padding-top: 30px;
+                }
+            }
+
+            .footer_elwet-frame {
+                width: 100%;
+                height: 270px;
+                grid-column-start: 3;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 951px) {
+    .footer {
+        width: 100%;
+        height: auto;
+
+        .footer-main {
+            .footer-heading {
+                font-size: 36px;
+
+                &:after {
+                    width: 270px;
+                }
+            }
+
+            .footer-first {
+                font-size: 16px;
+            }
+
+            .footer-2nd {
+                font-size: 16px;
+            }
+
+            .photo_ala {
+                height: auto;
+                width: 100%;
+            }
+
+            .footer-3rd {
+                font-size: 14px;
+            }
+
+            .footer-4th {
+                font-size: 14px;
+            }
+        }
+
+        ul {
+            padding-left: 1%;
+        }
+
+        .first-clinic {
+
+            .photo_dermawet {
+                width: 140px;
+                height: 190px;
+                margin-top: 40px;
+                grid-column-start: 1;
+            }
+
+            .footer_dermawet {
+                margin-top: 50px;
+                grid-column-start: 2;
+
+                h3 {
+                    font-size: 18px;
+                }
+            }
+
+            .footer_dermawet-frame {
+                width: 100%;
+                height: 240px;
+                grid-column-start: 3;
+            }
+        }
+
+        .second-clinic {
+            .photo_vetcare {
+                width: 140px;
+                height: 190px;
+                margin-top: 40px;
+                grid-column-start: 1;
+            }
+
+            .footer_vetcare {
+                margin-top: 70px;
+                grid-column-start: 2;
+
+                h3 {
+                    font-size: 18px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 14px;
+                }
+            }
+
+            .footer_vetcare-frame {
+                width: 100%;
+                height: 240px;
+                grid-column-start: 3;
+            }
+        }
+
+        .third-clinic {
+            .photo_elwet {
+                width: 140px;
+                height: 190px;
+                margin-top: 40px;
+                grid-column-start: 1;
+            }
+
+            .footer_elwet {
+                margin-top: 50px;
+                grid-column-start: 2;
+
+                h3 {
+                    font-size: 18px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 14px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 14px;
+                    padding-top: 30px;
+                }
+            }
+
+            .footer_elwet-frame {
+                width: 100%;
+                height: 240px;
+                grid-column-start: 3;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .footer {
+        width: 100%;
+        height: auto;
+
+        
+        .first-clinic {
+            width: 97%;
+            display: grid;
+            grid-template-columns: 43% 56%;
+            grid-template-rows: 100% 0;
+            padding-top: 0px;
+            padding-left: 1%;
+            border-bottom: 3px solid #004B72;
+
+            .photo_dermawet {
+                visibility: hidden;
+            }
+
+            .footer_dermawet {
+                margin-top: 40px;
+                grid-column-start: 1;
+                grid-row-start: 1;
+
+                h3 {
+                    font-size: 18px;
+                    margin: 0;
+                    padding-bottom: 6px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 14px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 14px;
+                    padding-top: 56px;
+                }
+            }
+
+            .footer_dermawet-frame {
+                width: 100%;
+                height: 260px;
+                padding-left: 0;
+                grid-column-start: 2;
+                grid-row-start: 1;
+            }
+        }
+
+        .second-clinic {
+            width: 97%;
+            display: grid;
+            grid-template-columns: 43% 56%;
+            grid-template-rows: 100% 0;
+            padding-top: 0px;
+            padding-left: 1%;
+            border-bottom: 3px solid #004B72;
+
+            .photo_vetcare {
+                visibility: hidden;
+            }
+
+            .footer_vetcare {
+                margin-top: 60px;
+                grid-column-start: 1;
+                grid-row-start: 1;
+
+                h3 {
+                    font-size: 18px;
+                    margin: 0;
+                    padding-bottom: 6px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 14px;
+                    padding-top: 30px;
+                }
+            }
+
+            .footer_vetcare-frame {
+                width: 100%;
+                height: 260px;
+                padding-left: 0%;
+                padding-top: 10px;
+                grid-column-start: 2;
+                grid-row-start: 1;
+            }
+        }
+
+        .third-clinic {
+            width: 97%;
+            display: grid;
+            grid-template-columns: 43% 56%;
+            grid-template-rows: 100% 0;
+            padding-top: 0px;
+            padding-left: 1%;
+            border-bottom: 3px solid #004B72;
+
+            .photo_elwet {
+                visibility: hidden;
+            }
+
+            .footer_elwet {
+                margin-top: 50px;
+                grid-column-start: 1;
+                grid-row-start: 1;
+
+                h3 {
+                    font-size: 18px;
+                    margin: 0;
+                    padding-bottom: 6px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 14px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 14px;
+                    padding-top: 56px;
+                }
+            }
+
+            .footer_elwet-frame {
+                width: 100%;
+                height: 260px;
+                padding-left: 0%;
+                padding-top: 10px;
+                grid-column-start: 2;
+                grid-row-start: 1;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .footer {
+        width: 100%;
+        height: auto;
+
+        .footer-main {
+            height: 85px;
+
+            .footer-heading {
+                left: 40%;
+                // font-size: 28px;
+                // letter-spacing: 1.6px;
+
+                // &:after {
+                //     height: 2px;
+                //     width: 150px;
+                // }
+            }
+        }
+
+        .first-clinic {
+            width: 97%;
+            height: 450px;
+            display: grid;
+            grid-template-columns: 100% 0;
+            grid-template-rows: 40% 57% 0;
+            padding-top: 0px;
+            padding-left: 0;
+            padding-bottom: 10px;
+
+            .photo_dermawet {
+                visibility: hidden;
+            }
+
+            .footer_dermawet {
+                width: 400px;
+                margin-top: 20px;
+                grid-column-start: 1;
+                grid-row-start: 1;
+
+                h2 {
+                    font-size: 16px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    margin: 0;
+                    padding-bottom: 3px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 14px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 14px;
+                    padding-top: 16px;
+                }
+            }
+
+            .footer_dermawet-frame {
+                width: 98%;
+                height: 250px;
+                padding-left: 0%;
+                grid-column-start: 1;
+                grid-row-start: 2;
+            }
+        }
+
+        .second-clinic {
+            width: 97%;
+            height: 410px;
+            display: grid;
+            grid-template-columns: 100% 0;
+            grid-template-rows: 36% 30% 0;
+            padding-top: 0px;
+            padding-left: 2%;
+            border-bottom: 3px solid #004B72;
+
+            .photo_vetcare {
+                visibility: hidden;
+            }
+
+            .footer_vetcare {
+                margin-top: 30px;
+                grid-column-start: 1;
+                grid-row-start: 1;
+
+                h2 {
+                    font-size: 16px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    margin: 0;
+                    padding-bottom: 3px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 14px;
+                    padding-top: 30px;
+                }
+            }
+
+            .footer_vetcare-frame {
+                width: 98%;
+                height: 250px;
+                padding-left: 0%;
+                grid-column-start: 1;
+                grid-row-start: 2;
+            }
+        }
+
+        .third-clinic {
+            width: 97%;
+            height: 450px;
+            display: grid;
+            grid-template-columns: 100% 0;
+            grid-template-rows: 40% 57% 0;
+            padding-top: 0px;
+            padding-left: 2%;
+            padding-bottom: 10px;
+
+            .photo_elwet {
+                visibility: hidden;
+            }
+
+            .footer_elwet {
+                width: 400px;
+                margin-top: 20px;
+                grid-column-start: 1;
+                grid-row-start: 1;
+
+                h2 {
+                    font-size: 16px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    margin: 0;
+                    padding-bottom: 3px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 14px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 14px;
+                    padding-top: 20px;
+                }
+            }
+
+            .footer_elwet-frame {
+                width: 98%;
+                height: 250px;
+                padding-left: 0%;
+                grid-column-start: 1;
+                grid-row-start: 2;
+            }
+        }
+
+        .contact {
+            width: 100%;
+            position: relative;
+            margin-top: 10px;
+            height: 170px;
+    
+            .footer-1 {
+                position: absolute;
+                top: 5%;
+               // left: 38%;
+                font-size: 16px;
+                text-transform: uppercase;
+                color: red;
+                text-align: center;
+                width: 100%;
+            }
+    
+            .footer-3th {
+                position: absolute;
+                top: 45%;
+               // left: 40%;
+                font-size: 14px;
+                text-align: center;
+                width: 100%;
+            }
+    
+            .footer-4rd {
+                position: absolute;
+                top: 56%;
+                //left: 40%;
+                font-size: 14px;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 677px) {
+    .footer 
+    .footer-main 
+    .footer-heading {
+        font-size: 30px;
+
+        &:after {
+            width: 210px;
+        }
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .footer .footer-main .footer-heading {
+        top: 15%;
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .footer {
+        width: 100%;
+        height: auto;
+
+        .footer-main {
+            .footer-heading {
+                left: 33%;
+
+                &:after {
+                    height: 2px;
+                    width: 210px;
+                }
+            }
+        }
+
+        ul {
+            padding-left: 1%;
+        }
+
+        .first-clinic {
+            width: 97%;
+            height: 410px;
+            display: grid;
+            grid-template-columns: 100% 0;
+            grid-template-rows: 40% 57% 0;
+            padding-top: 0;
+            padding-left: 0;
+            padding-bottom: 4px;
+
+            .photo_dermawet {
+                visibility: hidden;
+            }
+
+            .footer_dermawet {
+                width: 100%;
+                margin-top: 10px;
+
+                h2 {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 14px;
+                    margin: 0;
+                    padding-bottom: 3px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 12px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 12px;
+                    padding-top: 16px;
+                }
+            }
+
+            .footer_dermawet-frame {
+                width: 98%;
+                height: 230px;
+                padding-left: 0%;
+            }
+        }
+
+        .second-clinic {
+            width: 97%;
+            height: 360px;
+            display: grid;
+            grid-template-columns: 100% 0;
+            grid-template-rows: 32% 30% 0;
+            padding-top: 0px;
+            padding-left: 0%;
+            border-bottom: 3px solid #004B72;
+
+            .photo_vetcare {
+                visibility: hidden;
+            }
+
+            .footer_vetcare {
+                width: 100%;
+                margin-top: 20px;
+
+                h2 {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 14px;
+                    margin: 0;
+                    padding-bottom: 3px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 12px;
+                    padding-top: 16px;
+                }
+
+                label,
+                a {
+                    font-size: 12px;
+                }
+            }
+
+            .footer_vetcare-frame {
+                width: 98%;
+                height: 230px;
+                padding-left: 0%;
+            }
+        }
+
+        .third-clinic {
+            width: 97%;
+            height: 410px;
+            display: grid;
+            grid-template-columns: 100% 0;
+            grid-template-rows: 40% 57% 0;
+            padding-top: 0;
+            padding-left: 0;
+            padding-bottom: 4px;
+
+            .photo_elwet {
+                visibility: hidden;
+            }
+
+            .footer_elwet {
+                width: 100%;
+                margin-top: 20px;
+
+                h2 {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 14px;
+                    margin: 0;
+                    padding-bottom: 3px;
+                }
+
+                p,
+                label,
+                a {
+                    font-size: 12px;
+                }
+
+                p:nth-last-child(1) {
+                    font-size: 12px;
+                    padding-top: 16px;
+                }
+            }
+
+            .footer_elwet-frame {
+                width: 98%;
+                height: 230px;
+                padding-left: 0%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .footer .footer-main .footer-heading {
+        top: 15%;
+        left: 32%;
+        font-size: 25px;
+
+        &:after {
+            width: 180px;
+        }
+    }
+}
