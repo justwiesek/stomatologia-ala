@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stomatologia-ala/precache-manifest.891e2f51e289b5843ca0270c1eb6928e.js"
+  "/stomatologia-ala/precache-manifest.f8cf38471aa413d0f80fcf9793f29814.js"
 );
 
 self.addEventListener('message', (event) => {
