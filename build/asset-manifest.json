@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stomatologia-ala/static/css/main.14d75b06.chunk.css",
-    "main.js": "/stomatologia-ala/static/js/main.c7f7e7e9.chunk.js",
-    "main.js.map": "/stomatologia-ala/static/js/main.c7f7e7e9.chunk.js.map",
+    "main.js": "/stomatologia-ala/static/js/main.c078cb2e.chunk.js",
+    "main.js.map": "/stomatologia-ala/static/js/main.c078cb2e.chunk.js.map",
     "runtime-main.js": "/stomatologia-ala/static/js/runtime-main.17c21cd6.js",
     "runtime-main.js.map": "/stomatologia-ala/static/js/runtime-main.17c21cd6.js.map",
     "static/css/2.c0a99ac3.chunk.css": "/stomatologia-ala/static/css/2.c0a99ac3.chunk.css",
     "static/js/2.0375a439.chunk.js": "/stomatologia-ala/static/js/2.0375a439.chunk.js",
     "static/js/2.0375a439.chunk.js.map": "/stomatologia-ala/static/js/2.0375a439.chunk.js.map",
     "index.html": "/stomatologia-ala/index.html",
-    "precache-manifest.5d742fa1535e53f02d828a348cdbaa52.js": "/stomatologia-ala/precache-manifest.5d742fa1535e53f02d828a348cdbaa52.js",
+    "precache-manifest.891e2f51e289b5843ca0270c1eb6928e.js": "/stomatologia-ala/precache-manifest.891e2f51e289b5843ca0270c1eb6928e.js",
     "service-worker.js": "/stomatologia-ala/service-worker.js",
     "static/css/2.c0a99ac3.chunk.css.map": "/stomatologia-ala/static/css/2.c0a99ac3.chunk.css.map",
     "static/css/main.14d75b06.chunk.css.map": "/stomatologia-ala/static/css/main.14d75b06.chunk.css.map",
@@ -19,16 +19,16 @@
     "static/media/dyplom4.jpeg": "/stomatologia-ala/static/media/dyplom4.74b849b7.jpeg",
     "static/media/all.min.css": "/stomatologia-ala/static/media/fa-solid-900.ec763292.svg",
     "static/media/logo2.png": "/stomatologia-ala/static/media/logo2.cb063e4e.png",
-    "static/media/stomatologia_img3.JPG": "/stomatologia-ala/static/media/stomatologia_img3.fe31648c.JPG",
-    "static/media/stomatologia_img4.JPG": "/stomatologia-ala/static/media/stomatologia_img4.9125af0e.JPG",
-    "static/media/stomatologia_img55.jpg": "/stomatologia-ala/static/media/stomatologia_img55.60e4a90d.jpg",
-    "static/media/stomatologia_img6.JPG": "/stomatologia-ala/static/media/stomatologia_img6.c1da66a1.JPG"
+    "static/media/stomatologia_img3.JPG": "/stomatologia-ala/static/media/stomatologia_img3.9657d783.JPG",
+    "static/media/stomatologia_img4.JPG": "/stomatologia-ala/static/media/stomatologia_img4.9a8125b6.JPG",
+    "static/media/stomatologia_img55.jpg": "/stomatologia-ala/static/media/stomatologia_img55.97378271.jpg",
+    "static/media/stomatologia_img6.JPG": "/stomatologia-ala/static/media/stomatologia_img6.9b1c8ea3.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.17c21cd6.js",
     "static/css/2.c0a99ac3.chunk.css",
     "static/js/2.0375a439.chunk.js",
     "static/css/main.14d75b06.chunk.css",
-    "static/js/main.c7f7e7e9.chunk.js"
+    "static/js/main.c078cb2e.chunk.js"
   ]
 }

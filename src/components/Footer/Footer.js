@@ -29,14 +29,14 @@ const Footer = (props) => {
               <label htmlFor="phone">tel.: </label>
               <a href="tel:228540261">22 854 02 61</a>
               <p>
-                Link do kalendarza z możliwością rezerwacji wizyty:{" "}
+                {/* Link do kalendarza z możliwością rezerwacji wizyty:{" "}
                 <a
                   href="https://dermawet.com/rezerwacja-wizyt"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   https://dermawet.com/rezerwacja-wizyt
-                </a>
+                </a>  */}
               </p>
             </div>
 
